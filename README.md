@@ -28,7 +28,7 @@ Step 4: Run the project
 ## Architecture (Agent flow)
 
 
-![Architecture Diagram](./agent-architecture.png)
+![Architecture Diagram](docs/agent-architecture.png)
 
 ---
 
