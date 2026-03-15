@@ -25,7 +25,14 @@ Step 4: Run the project
 
 ---
 
-# Installation
+## Architecture (Agent flow)
+
+
+![Architecture Diagram](./agent-architecture.png)
+
+---
+
+## Installation
 
 Clone the repository:
 
@@ -42,7 +49,7 @@ uv sync
 
 ---
 
-# Setup
+## Setup
 
 Create a `.env` file:
 
@@ -60,7 +67,7 @@ GITHUB_API_KEY=
 
 ---
 
-# Run the Agent
+## Run the Agent
 
 ```
 uv run python scripts/run.py
@@ -76,7 +83,7 @@ The agent will generate a beginner-friendly setup guide.
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```
 repo-for-dummies
@@ -98,7 +105,7 @@ repo-for-dummies
 
 ---
 
-# How It Works
+## How It Works
 
 The system uses **two agents**:
 
@@ -113,7 +120,7 @@ The system uses **two agents**:
 
 ---
 
-# Future Improvements
+## Future Improvements
 
 * Parse full repositories (not just README)
 * Auto-detect install commands
@@ -122,6 +129,6 @@ The system uses **two agents**:
 
 ---
 
-# License
+## License
 
 MIT License
